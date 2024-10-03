@@ -1,0 +1,15 @@
+{
+  "name": "Haskell Development Container",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "haskell",
+  "workspaceFolder": "/code",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell",
+        "formulahendry.code-runner",
+        "mogeko.haskell-extension-pack"
+      ]
+    }
+  }
+}
